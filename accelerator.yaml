@@ -19,7 +19,7 @@ accelerator:
       inputType: text
       display: true
       label: 'auth.username'
-      defaultValue: 'admin'
+      defaultValue: 'pgadmin'
       dependsOn:
         name: mlPlatformType
         value: datasource
@@ -27,7 +27,7 @@ accelerator:
       inputType: text
       display: true
       label: 'auth.password'
-      defaultValue: 'admin'
+      defaultValue: 'changeme'
       dependsOn:
         name: mlPlatformType
         value: datasource

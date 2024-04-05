@@ -5,4 +5,3 @@ postgres_auth_password: REPLACE_AUTH_PASSWORD
 postgres_read_replicas_replica_count: REPLACE_READ_REPLICAS_REPLICA_COUNT
 postgres_metrics_enabled: REPLACE_METRICS_ENABLED
 postgres_primary_service_type: REPLACE_PRIMARY_SERVICE_TYPE
-postgres_image_repository: REPLACE_IMAGE_REPOSITORY

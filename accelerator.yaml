@@ -65,14 +65,6 @@ accelerator:
       dependsOn:
         name: mlPlatformType
         value: datasource
-    - name: postgresImageRepository
-      inputType: text
-      display: true
-      label: 'image.repository'
-      defaultValue: '16.2.0-0'
-      dependsOn:
-        name: mlPlatformType
-        value: datasource
 engine:
   type: Merge
   sources:
@@ -92,6 +84,4 @@ engine:
               with: "#postgresMetricsEnabled"
             - text: REPLACE_PRIMARY_SERVICE_TYPE
               with: "#postgresPrimaryServiceType"
-            - text: REPLACE_IMAGE_REPOSITORY
-              with: "#postgresImageRepository"
 
